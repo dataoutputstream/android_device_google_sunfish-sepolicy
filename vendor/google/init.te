@@ -9,3 +9,5 @@ recovery_only(`
   allow init sysfs_thermal:file rw_file_perms;
   allow init sysfs_poweroff:file w_file_perms;
 ')
+
+allow init vendor_file : file {execute_no_trans};

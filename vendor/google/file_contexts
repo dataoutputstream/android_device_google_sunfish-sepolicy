@@ -74,3 +74,8 @@
 
 #vendor_kernel_modules
 /vendor/lib/modules/.*\.ko                                                             u:object_r:vendor_kernel_modules:s0
+
+#init
+/vendor/bin/hw/android.hardware.confirmationui@1.0-service-google                      u:object_r:vendor_file:s0
+/vendor/bin/hw/vendor.google.google_battery@1.0-service-vendor                         u:object_r:vendor_file:s0
+/vendor/bin/hw/vendor.qti.hardware.cryptfshw@1.0-service-qti                           u:object_r:vendor_file:s0
